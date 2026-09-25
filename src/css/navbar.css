@@ -17,11 +17,18 @@
     justify-content: center;
     color: #5a5959;
     padding-bottom: 15px;
-    gap:15px;
+    gap: 33px;
 }
 .navbar-item{
     text-decoration: none;
     color: #5a5959;
+}
+.navbar-item__icon{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 42px;
+    font-size: 1.2rem;
 }
 
 .navbar-item:hover{
